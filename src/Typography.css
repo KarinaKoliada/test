@@ -1,0 +1,32 @@
+a {
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 4.8125rem; /* 77px / 16px */
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 3.1875rem; /* 51px / 16px */
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 2.0625rem; /* 33px / 16px */
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+

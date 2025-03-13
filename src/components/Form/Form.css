@@ -1,0 +1,110 @@
+.form-container {
+  display: flex;
+  width: 100%;
+  padding: 60px 100px 80px 100px;
+  margin: 0 auto;
+  align-items: flex-start;
+  gap: 215px;
+  border-radius: 45px;
+  background: #f3f3f3;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  margin-bottom: 15px;
+}
+
+.radio-input {
+  display: none; 
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.radio-label::before {
+  content: "";
+  border-radius: 29px;
+  border: 1px solid #000;
+  background: #fff;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.radio-input:checked + .radio-label::before {
+  background: url("src/assets/Radiobutton.svg") no-repeat center;
+  background-size: contain;
+}
+
+.input-field {
+  display: flex;
+  width: 556px;
+  padding: 18px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 14px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+textarea.input-field {
+  width: 556px;
+  height: 190px;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+button {
+  display: flex;
+  padding: 20px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 600ms ease;
+}
+
+button:hover {
+  background-color: white;
+  color: #000;
+  border: 1px solid black;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+}
+
+.form-illustration {
+  width: 691.57px;
+  height: 648px;
+  flex-shrink: 0;
+}
+
+label + input,
+label + textarea {
+  margin-top: 3px;
+  resize: none;
+}

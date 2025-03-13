@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .grid-areas-mobile {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "image"
+      "description"
+      "button";
+  }
+
+  .grid-areas-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title image"
+      "description image"
+      "button image";
+    align-items: center;
+  }
+
+  .area-title {
+    grid-area: title;
+  }
+  .area-image {
+    grid-area: image;
+  }
+  .area-description {
+    grid-area: description;
+  }
+  .area-button {
+    grid-area: button;
+  }
+}
+
+@layer utilities {
+  .grid-areas-services-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title title"
+      "button image";
+    align-items: center;
+  }
+
+  .grid-areas-services-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title image"
+      "button image";
+    align-items: center;
+  }
+
+  .area-title {
+    grid-area: title;
+  }
+  .area-button {
+    grid-area: button;
+    justify-self: start;
+  }
+  .area-image {
+    grid-area: image;
+    justify-self: center;
+  }
+}
+
+@layer utilities {
+  /* Сетка, если subtitle присутствует */
+  .grid-success-areas-mobile {
+    display: grid;
+    grid-template-areas:
+      "subtitle"
+      "title"
+      "image"
+      "description";
+    gap: 20px;
+  }
+
+  .grid-success-areas-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "image subtitle"
+      "image title"
+      "image description";
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Сетка, если subtitle отсутствует */
+  .grid-no-subtitle-mobile {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "image"
+      "description";
+    gap: 20px;
+  }
+
+  .grid-no-subtitle-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "image title"
+      "image description";
+    align-items: center;
+    gap: 20px;
+  }
+
+  .area-title {
+    grid-area: title;
+    align-self: end;
+  }
+  .area-description {
+    align-self: start;
+    grid-area: description;
+  }
+  .area-image {
+    grid-area: image;
+    justify-self: center;
+  }
+  .area-subtitle {
+    align-self: end;
+    grid-area: subtitle;
+  }
+}
+
+@layer utilities {
+  .grid-search-areas-mobile {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "line"
+      "description"
+      "smallDesc"
+      "image"
+      "button";
+  }
+
+  .grid-search-areas-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "title image"
+      "line image"
+      "description image"
+      "smallDesc image"
+      "button image";
+    align-items: center;
+  }
+
+  .area-title {
+    grid-area: title;
+  }
+  .area-line {
+    grid-area: line;
+  }
+  .area-description {
+    grid-area: description;
+  }
+  .area-small-desc {
+    grid-area: smallDesc;
+  }
+  .area-image {
+    grid-area: image;
+  }
+  .area-button {
+    grid-area: button;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Space Grotesk", sans-serif;
+}
+:root {
+  line-height: 28px;
+
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination.swiper-pagination-bullets {
+  display: none !important;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+@layer base {
+  input,
+  textarea {
+    @apply border border-black bg-white text-black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    @apply text-gray-500;
+    opacity: 1;
+  }
+
+  input:focus,
+  textarea:focus {
+    @apply border-[#B9FF66] outline-none;
+  }
+}
+
+@layer base {
+  input:-webkit-autofill,
+  textarea:-webkit-autofill {
+    @apply bg-white text-black;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill:focus {
+    @apply border-[#B9FF66];
+  }
+}
