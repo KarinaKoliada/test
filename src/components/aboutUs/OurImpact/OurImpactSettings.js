@@ -1,6 +1,6 @@
-import rectLeft from "../../../assets/aboutUs/rect-left.svg?react";
-import rectRight from "../../../assets/aboutUs/rect-right.svg?react";
-import rect from "../../../assets/aboutUs/rect.svg?react";
+import rectLeft from "../../../assets/rect-left.svg?react";
+import rectRight from "../../../assets/rect-right.svg?react";
+import rect from "../../../assets/rect.svg?react";
 
 export const OurImpactSettings = [
   {

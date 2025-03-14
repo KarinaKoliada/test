@@ -1,5 +1,5 @@
 import LinkBtn from "../../../LinkBtn/LinkBtn";
-import JoinIllustration from "../../../assets/aboutUs/join.svg?react";
+import JoinIllustration from "../../../assets/join.svg?react";
 
 const Join = () => {
   return (

@@ -1,7 +1,7 @@
 import SectionTab from "../SectionTab/SectionTab";
 import { teamTabProps } from "../Service/ServicesSettings";
 import { TeamSettings } from "./TeamSettings";
-import InstIcon from "../../assets/team/inst-team.svg?react";
+import InstIcon from "../../assets/inst-team.svg?react";
 import LinkBtn from "../../LinkBtn/LinkBtn";
 const Team = () => {
   return (

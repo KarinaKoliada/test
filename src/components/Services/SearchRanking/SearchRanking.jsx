@@ -1,4 +1,4 @@
-import robotImg from "../../../assets/aboutUs/robot.svg";
+import robotImg from "../../../assets/robot.svg";
 import LinkBtn from "../../../LinkBtn/LinkBtn";
 const SearchRanking = () => {
   return (

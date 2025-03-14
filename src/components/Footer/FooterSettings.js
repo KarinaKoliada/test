@@ -1,16 +1,16 @@
 export const socialIcons = [
   {
-    src: "src/assets/social/in.svg",
+    src: "src/assets/in.svg",
     alt: "instagram",
     link: "https://instagram.com",
   },
   {
-    src: "src/assets/social/facebook.svg",
+    src: "src/assets/facebook.svg",
     alt: "facebook",
     link: "https://facebook.com",
   },
   {
-    src: "src/assets/social/twitter.svg",
+    src: "src/assets/twitter.svg",
     alt: "twitter",
     link: "https://twitter.com",
   },

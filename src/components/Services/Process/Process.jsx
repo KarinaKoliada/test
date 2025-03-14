@@ -1,7 +1,7 @@
 import SectionTab from "../../SectionTab/SectionTab";
 import { seoTabProps } from "../../Service/ServicesSettings";
 import { ProcessSettings } from "./ProcessSettings";
-import BlackStar from "../../../assets/servicesExpert/black-star.svg?react";
+import BlackStar from "../../../assets/black-star.svg?react";
 const Process = () => {
   return (
     <section id="process" className="pb-[60px] md:pb-[140px]">

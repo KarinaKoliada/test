@@ -1,5 +1,5 @@
-import StarsMob from "../../../assets/aboutUs/stars-mob.svg?react";
-import StarsDesc from "../../../assets/aboutUs/stars.svg?react";
+import StarsMob from "../../../assets/stars-mob.svg?react";
+import StarsDesc from "../../../assets/stars.svg?react";
 //flex-col-reverse
 const Stars = () => {
   return (

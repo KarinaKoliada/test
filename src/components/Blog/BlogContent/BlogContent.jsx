@@ -1,6 +1,6 @@
-import SarahImg from "../../../assets/blog/sarah-ill.svg?react";
+import SarahImg from "../../../assets/emilyv.svg?react";
 import { BlogContentSettings } from "./BlogContentSettings";
-import Star from "../../../assets/blog/start-black.svg?react";
+import Star from "../../../assets/start-black.svg?react";
 const BlogContent = () => {
   return (
     <section id="blog-content" className="pb-[60px] md:pb-[140px]">

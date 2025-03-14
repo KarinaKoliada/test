@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import GreenArrow from "../assets/arrowsBtn/green-arrow.svg?react";
+import GreenArrow from "../assets/green-arrow.svg?react";
 
 const UseCases = ({ setting, className }) => {
   return (

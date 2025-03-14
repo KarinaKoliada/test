@@ -1,6 +1,6 @@
 import { JourneySettings } from "./JourneySettings";
-import GreenStar from "../../../assets/aboutUs/green-star.svg?react";
-import Spin from "../../../assets/aboutUs/spin.svg?react";
+import GreenStar from "../../../assets/green-star1.svg?react";
+import Spin from "../../../assets/spin.svg?react";
 import SectionTab from "../../SectionTab/SectionTab";
 import { journeyTabProps } from "../../Service/ServicesSettings";
 

@@ -5,8 +5,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { SwiperSettings } from "./SwiperSettings";
 import border from "../../assets/border.svg";
-import rightArrow from "../../assets/arrowsBtn/arrow-right-swiper.svg";
-import leftArrow from "../../assets/arrowsBtn/arrow-left-swiper.svg";
+import rightArrow from "../../assets/arrow-right-swiper.svg";
+import leftArrow from "../../assets/arrow-left-swiper.svg";
 import bullet from "../../assets/bullet.svg";
 import mobBorder from "../../assets/border-mob.svg";
 

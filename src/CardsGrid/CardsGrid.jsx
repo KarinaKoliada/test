@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
-import ArrowBtn from "../assets/casesBlock/green-btn.svg?react";
+import ArrowBtn from "../assets/green-btn.svg?react";
 
 const CardsGrid = ({ setting }) => {
   return (
-    <div className="lg:border lg:border-black lg:rounded-[45px] p-[45px] lg:p-0 lg:shadow-[0px_5px_0px_0px_#191a23]">
+    <div className="lg:border lg:border-black lg:rounded-[45px] lg:p-0 lg:shadow-[0px_5px_0px_0px_#191a23]">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-0 ">
         {setting.map(({ title, desc }, index) => (
           <div

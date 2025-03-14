@@ -17,7 +17,12 @@ const Questions = () => {
         </div>
         <ul className="flex flex-col gap-5 md:gap-[30px] mb-[60px] md:mb-[100px] lg:mb-[140px]">
           {QuestionsSettings.map(({ title, text }, index) => (
-            <Accordion text={text} title={title} key={index} />
+            <Accordion
+              text={text}
+              title={title}
+              key={index}
+              className={"h-[370px]"}
+            />
           ))}
         </ul>
       </div>

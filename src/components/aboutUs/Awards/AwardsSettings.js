@@ -1,7 +1,7 @@
-import Card1 from "../../../assets/aboutUs/1.svg?react";
-import Card2 from "../../../assets/aboutUs/2.svg?react";
-import Card3 from "../../../assets/aboutUs/3.svg?react";
-import Card4 from "../../../assets/aboutUs/4.svg?react"
+import Card1 from "../../../assets/1.svg?react";
+import Card2 from "../../../assets/2.svg?react";
+import Card3 from "../../../assets/3.svg?react";
+import Card4 from "../../../assets/4.svg?react";
 
 export const AwardSettings = [
   {

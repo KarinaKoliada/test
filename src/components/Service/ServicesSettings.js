@@ -1,46 +1,46 @@
-import ArrowBtnWhite from "../../assets/arrowsBtn/white-arrow-btn.svg?react";
-import ArrowBtnBlack from "../../assets/arrowsBtn/black-arrow-btn.svg?react";
+import ArrowBtnWhite from "../../assets/white-arrow-btn.svg?react";
+import ArrowBtnBlack from "../../assets/black-arrow-btn.svg?react";
 
 export const ServicesSettings = [
   {
     title1: "Search engine ",
     title2: "optimization",
-    img: "src/assets/cards/card1.svg",
+    img: "src/assets/card1.svg",
     alt: "card1",
     theme: "light",
   },
   {
     title1: "Pay-per-click ",
     title2: "advertising",
-    img: "src/assets/cards/card2.svg",
+    img: "src/assets/card2.svg",
     alt: "card2",
     theme: "green",
   },
   {
     title1: "Social Media ",
     title2: "Marketing",
-    img: "src/assets/cards/card3.svg",
+    img: "src/assets/card3.svg",
     alt: "card3",
     theme: "black",
   },
   {
     title1: "Email ",
     title2: "Marketing",
-    img: "src/assets/cards/card4.svg",
+    img: "src/assets/card4.svg",
     alt: "card4",
     theme: "light",
   },
   {
     title1: "Content ",
     title2: "Creation",
-    img: "src/assets/cards/card5.svg",
+    img: "src/assets/card5.svg",
     alt: "card5",
     theme: "green",
   },
   {
     title1: "Analytics and ",
     title2: "Tracking",
-    img: "src/assets/cards/card6.svg",
+    img: "src/assets/card6.svg",
     alt: "card6",
     theme: "black",
   },

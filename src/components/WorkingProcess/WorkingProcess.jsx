@@ -21,6 +21,7 @@ const WorkingProcess = () => {
               text={text}
               key={index}
               title={title}
+              className={"h-[320px]"}
             />
           ))}
         </ul>

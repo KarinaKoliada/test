@@ -1,7 +1,7 @@
-import successImg from "../assets/aboutUs/success.svg";
-import expertImg from "../assets/servicesExpert/expert.svg";
-import useCaseImg from "../assets/casesBlock/use-cases-ill.svg";
-import blogImg from "../assets/blog/blog-img.svg"
+import successImg from "../assets/success.svg";
+import expertImg from "../assets/expert.svg";
+import useCaseImg from "../assets/use-cases-ill.svg";
+import blogImg from "../assets/blog-img.svg"
 export const SuccessTabProps = {
   title: "Together for Success",
   desc: "At Positivus, we help businesses grow by combining creativity, innovation, and data-driven strategies. Together, we build a future of shared success.",

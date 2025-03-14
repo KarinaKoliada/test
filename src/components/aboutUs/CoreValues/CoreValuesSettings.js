@@ -1,5 +1,5 @@
-import Robot from "../../../assets/aboutUs/robot.svg?react";
-import People from "../../../assets/aboutUs/people.svg?react";
+import Robot from "../../../assets/robot.svg?react";
+import People from "../../../assets/people.svg?react";
 
 export const CoreValuesSettings = [
   {

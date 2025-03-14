@@ -1,5 +1,5 @@
 import FreeProposal from "../../../FreeProposal/FreeProposal";
-import Illustration from "../../../assets/casesBlock/illustration.svg";
+import Illustration from "../../../assets/illustration.svg";
 const SuccessProposal = () => {
   return (
     <section id="success-proposal" className="flex  scroll-mt-5 items-center">

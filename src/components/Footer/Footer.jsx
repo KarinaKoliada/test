@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import Button from "../../Button/Button";
 import { NavbarSettings } from "../Navbar/NavbarSettings";
 import PositivusLogo from "../../assets/positivus.svg?react";
-import { socialIcons } from "../Footer/FooterSettings";
+import { socialIcons } from "./FooterSettings";
 import Romb from "../../assets/romb.svg?react";
 
 const Footer = () => {
@@ -44,7 +44,7 @@ const Footer = () => {
               <nav className="flex flex-col lg:flex-row items-center justify-center lg:justify-end gap-5">
                 {NavbarSettings.map(({ page, link }) => (
                   <a
-                    href={`#${link}`}
+                    href={`${link}`}
                     key={page}
                     className="text-lg px-2  text-center text-white transition-all duration-300 ease-in-out hover:text-black hover:scale-110 rounded-[9px] hover:bg-[#b9ff66]"
                   >

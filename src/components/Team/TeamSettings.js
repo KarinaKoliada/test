@@ -4,7 +4,7 @@ export const TeamSettings = [
     position: "CEO and Founder",
     experience:
       "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-    img: "src/assets/team/smithv.svg",
+    img: "src/assets/smithv.svg",
   },
 
   {
@@ -12,7 +12,7 @@ export const TeamSettings = [
     position: "Director of Operations",
     experience:
       "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-    img: "src/assets/team/janev.svg",
+    img: "src/assets/janev.svg",
   },
 
   {
@@ -20,7 +20,7 @@ export const TeamSettings = [
     position: "Senior SEO Specialist",
     experience:
       "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-    img: "src/assets/team/michaelv.svg",
+    img: "src/assets/michaelv.svg",
   },
 
   {
@@ -28,20 +28,20 @@ export const TeamSettings = [
     position: "PPC Manager",
     experience:
       "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
-    img: "src/assets/team/emilyv.svg",
+    img: "src/assets/emilyv.svg",
   },
   {
     name: "Brian Williams",
     position: "Social Media Specialist",
     experience:
       "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
-    img: "src/assets/team/brianv.svg",
+    img: "src/assets/brianv.svg",
   },
   {
     name: "Sarah Kim",
     position: "Content Creator",
     experience:
       "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
-    img: "src/assets/team/sarahv.svg",
+    img: "src/assets/sarahv.svg",
   },
 ];

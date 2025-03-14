@@ -1,4 +1,4 @@
-import GreenStar from "../../../assets/servicesExpert/green-vector.svg?react";
+import GreenStar from "../../../assets/green-vector.svg?react";
 import LinkBtn from "../../../LinkBtn/LinkBtn";
 import CoveredTitle from "../../../CoveredTitle/CoveredTitle";
 import { optimizationTabProps } from "../../Service/ServicesSettings";

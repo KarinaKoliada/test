@@ -1,6 +1,6 @@
-import GreenStar from "../../../assets/casesBlock/green-star.svg?react";
+import GreenStar from "../../../assets/green-star.svg?react";
 import { FeaturedSetting } from "./FeaturedSettings";
-import ArrowBtn from "../../../assets/casesBlock/green-btn.svg?react";
+import ArrowBtn from "../../../assets/green-btn.svg?react";
 
 const Featured = () => {
   return (

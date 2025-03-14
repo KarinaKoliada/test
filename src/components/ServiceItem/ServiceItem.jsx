@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import ArrowBtn from "../../assets/arrow.svg?react"
-"../../assets/cards/arrow.svg?react";
+import ArrowBtn from "../../assets/arrow.svg?react";
+("../../assets/cards/arrow.svg?react");
 import CoveredTitle from "../../CoveredTitle/CoveredTitle";
 
 const ServiceItem = ({ title1, title2, theme, img, alt }) => {
@@ -39,7 +39,7 @@ const ServiceItem = ({ title1, title2, theme, img, alt }) => {
         cardBackgroundColor: "#F3F3F3",
         titleBackgroundColor: "#FFFFFF",
         textColor: "#000",
-        ArrowColor: "#000000",
+        ArrowColor: "#B9FF66",
         ArrowBackgroundColor: "#000",
       };
     }
@@ -66,9 +66,10 @@ const ServiceItem = ({ title1, title2, theme, img, alt }) => {
           href="#form"
         >
           <div
-            className={`bg-[${themeSettings.ArrowBackgroundColor}] rounded-full w-10 h-10 flex justify-center items-center`}
+            className="rounded-full w-10 h-10 flex justify-center items-center"
+            style={{ backgroundColor: themeSettings.ArrowBackgroundColor }}
           >
-            <ArrowBtn className={`text-[${themeSettings.ArrowColor}]`} />
+            <ArrowBtn style={{ color: themeSettings.ArrowColor }} />
           </div>
 
           <span className="hidden md:block">Learn more</span>

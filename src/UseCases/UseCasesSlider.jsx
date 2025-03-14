@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
-import ArrowBtn from "../assets/arrowsBtn/green-arrow.svg?react";
+import ArrowBtn from "../assets/green-arrow.svg?react";
 
 const UseCasesSlider = ({ setting, className }) => {
   return (
