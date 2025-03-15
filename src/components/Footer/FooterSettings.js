@@ -1,16 +1,19 @@
+import Inst from "../../assets/in.svg";
+import Facebook from "../../assets/facebook.svg";
+import Twitter from "../../assets/twitter.svg";
 export const socialIcons = [
   {
-    src: "../../assets/in.svg",
+    src: Inst,
     alt: "instagram",
     link: "https://instagram.com",
   },
   {
-    src: "../../assets/facebook.svg",
+    src: Facebook,
     alt: "facebook",
     link: "https://facebook.com",
   },
   {
-    src: "../../assets/twitter.svg",
+    src: Twitter,
     alt: "twitter",
     link: "https://twitter.com",
   },

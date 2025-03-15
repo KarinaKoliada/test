@@ -1,4 +1,4 @@
-import SarahImg from "../../../assets/emilyv.svg?react";
+import SarahImg from "../../../assets/emilyv.png";
 import { BlogContentSettings } from "./BlogContentSettings";
 import Star from "../../../assets/start-black.svg?react";
 const BlogContent = () => {
