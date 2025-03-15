@@ -1,8 +1,15 @@
+import Zoom from "../../assets/zoom.svg";
+import Amazon from "../../assets/amazon.svg";
+import Dribble from "../../assets/dribble.svg";
+import Hubspot from "../../assets/hubspot.svg";
+import Netflix from "../../assets/netflix.svg";
+import Notion from "../../assets/notion.svg";
+
 export const heroSettings = [
-  { img: "../../assets/amazon.svg", alt: "Amazon" },
-  { img: "../../assets/dribble.svg", alt: "Dribble" },
-  { img: "../../assets/hubspot.svg", alt: "HubSpot" },
-  { img: "../../assets/notion.svg", alt: "Notion" },
-  { img: "../../assets/netflix.svg", alt: "Netflix" },
-  { img: "../../assets/zoom.svg", alt: "Zoom" },
+  { img: Amazon, alt: "Amazon" },
+  { img: Dribble, alt: "Dribble" },
+  { img: Hubspot, alt: "HubSpot" },
+  { img: Notion, alt: "Notion" },
+  { img: Netflix, alt: "Netflix" },
+  { img: Zoom, alt: "Zoom" },
 ];
