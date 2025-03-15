@@ -1,9 +1,9 @@
-import Smith from "../../assets/smithv.svg?react";
-import Jane from "../../assets/janev.svg?react";
-import Michael from "../../assets/michaelv.svg?react";
-import Emily from "../../assets/emilyv.svg?react";
-import Sarah from "../../assets/sarav.svg?react";
-import Brian from "../../assets/brianv.svg?react";
+import Smith from "../../assets/smithv.svg";
+import Jane from "../../assets/janev.svg";
+import Michael from "../../assets/michaelv.svg";
+import Emily from "../../assets/emilyv.svg";
+import Sarah from "../../assets/sarav.svg";
+import Brian from "../../assets/brianv.svg";
 
 export const TeamSettings = [
   {
