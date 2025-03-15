@@ -2,7 +2,7 @@ import Smith from "../../assets/smithv.svg";
 import Jane from "../../assets/janev.svg";
 import Michael from "../../assets/michaelv.svg";
 import Emily from "../../assets/emilyv.svg";
-import Sarah from "../../assets/sarav.svg";
+import Sarah from "../../assets/sarahv.svg";
 import Brian from "../../assets/brianv.svg";
 
 export const TeamSettings = [
